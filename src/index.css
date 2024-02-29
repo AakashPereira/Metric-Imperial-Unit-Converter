@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background: #1C1C1C;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Manrope', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    width: 500px;
+}
+
+.header {
+    background: #6943FF;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+#unit-input {
+    text-align: center;
+    font-size: 4em;
+    padding: 7px 14px;
+    margin-top: 10px;
+    width: 120px;
+    border-radius: 5px;
+    border: 0;
+}
+
+#convert-btn {
+    margin: 20px 0;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 7px 14px;
+    border: 0;
+    width: 120px;
+}
+
+.main {
+    background: #1F2937;
+    padding: 10px 20px;
+}
+
+#status-msg {
+    background: crimson;
+    color: #FFFFFF;
+    padding: 7px 14px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0 auto;
+    display: none;
+}
+
+.card {
+    background: #273549;
+    padding: 7px 14px;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #CCC1FF;
+    font-size: 1.25em;
+}

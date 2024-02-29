@@ -1,0 +1,36 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="src/index.css">
+        <title>Metric/Imperial Unit Conversion</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Metric/Imperial Unit Conversion</h1>
+                    <label for="unit-input">Convert Unit</label>
+                    <input type="text" id="unit-input" aria-describedby="status-msg">
+                    <button id="convert-btn">Convert</button>
+                <div id="status-msg" role="status"></div>
+            </div>
+            <div class="main">
+                <div class="card">
+                    <h2>Length (Meter/Feet)</h2>
+                    <p id="lengthTxt"></p>
+                </div>
+                <div class="card">
+                    <h2>Volume (Liters/Gallons)</h2>
+                    <p id="volumeTxt"></p>
+                </div>
+                <div class="card">
+                    <h2>Mass (Kilograms/Pounds)</h2>
+                    <p id="massTxt"></p>
+                </div>
+            </div>
+        </div>
+        <script src="src/index.js"></script>
+    </body>
+</html>
